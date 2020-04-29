@@ -1,0 +1,99 @@
+
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1{ font-weight: 800;
+	font-size: 45px;
+	
+}
+
+
+h3{ font-weight: bold;
+    font-size: 15px; }
+
+h4{
+	font-size: 15px;
+	color: white;
+}
+
+
+.hero-banner h1{
+	color: white;
+	margin: 14px 0 20px;
+}
+
+.hero-banner h3{
+	color: white;
+	margin: 0px 0px 30px;
+}
+
+.hero-banner h4,
+.hero-banner h4 a {
+	color:white;
+	text-decoration: none;
+	margin: 0;
+}
+
+
+
+.hero-banner {
+	background-color: #A9A8B9;
+	
+	padding: 50px 10px 30px 30px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.wrapper { 
+  width: 960px;
+  margin: 0 auto; 
+  }
+
+
+.character1 { 
+width: 360 ;
+height: 340;
+position: absolute; top:20px; right: 250px; }
+
+.character2 { 
+float: right; 
+position: absolute; top:180px; right: 410px; }
+
+a.cta,
+button.cta { 
+font-size: 30px;
+font-weight: bold;
+color: white;
+background: #506cb0;
+display: inline-block;
+border: 10px solid rgba(0,0,0,0.15);
+padding: 10px; 
+border-radius: 30px;
+text-decoration: none;
+}
+
+
+a.cta.alt,
+button.cta.alt { 
+background-color: #8cb122;
+border: 10px solid rgba(0,0,0,0.15); 
+}
+
+
+/* <div class="hero-banner">
+	<div class="wrapper">
+		<h4>Virginia Vila from <a href="https://www.skillshare.com/classes/The-Basics-of-Web-Design-Layout-Learn-How-To-Describe-Your-Design-With-HTML-CSS/1282829766/projects?teacherRef=6102916&via=teacher-referral&utm_campaign=teacher-referral&utm_source=ShortUrl&utm_medium=teacher-referral">Skillshare</a> presents </h4>
+		<h1> The most awesome <br> Blue Berry proyect </h1>
+		<h3> This is freshness, this is unique and this is magnific. <br>
+		     It is the best combination of fresh ideas. </h3>
+		     <a class="cta alt" href="#more-info"> Presh me!</a>    
+		     <div class="character1">
+	<img src="bolita.png" width="240px"></div>
+
+		     */

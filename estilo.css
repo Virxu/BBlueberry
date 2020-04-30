@@ -18,7 +18,7 @@ h2{
 
 
 h3{ font-weight: bold;
-    font-size: 15px; }
+    font-size: 25px; }
 
 h4{
 	font-size: 15px;
@@ -26,8 +26,7 @@ h4{
 }
 
 p{
- font-weight: bold;
- font-size: 20px;
+  font-size: 25px;
  margin: 30px 0px;
 }
 
@@ -103,6 +102,7 @@ nav {
 	box-shadow: 0px 5px 8px  rgba(0,0,0,0.2);
 	position: sticky;
 	top: 0;
+	z-index: 1;
 }
 
 
@@ -152,13 +152,106 @@ nav ul li a{
  text-align: center;
 }
 
+.sep{
+	width: 600px;
+	height: 5px;
+	background: #58647c;
+	margin: 70px auto;
+
+ 
+}
+
+.nb-list {
+	width: 460px;
+	padding: 20px 20px 0px 20px;
+	box-sizing: border-box;
+	float: left;
+	margin: 0 20px 20px 0;
+	position: relative;
+
+}
+
+.nb-list li{
+	height: 60px;
+	border-radius: 15px;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 20px; 
+	padding: 6px 20px;
+	box-sizing: border-box;
+}
+
+.nb-list li.blue{ background-color: #506cb0;}
+.nb-list li.grey{ background-color: rgba(0,0,0,0.2);}
+.nb-list li.darkblue{ background-color: #58647c;}
+.nb-list li.green{ background-color: #8cb122;}
+.nb-list li.gray{ background-color: #072152;}
 
 
 
+.nb-list li.dragging:after{
+   content: "";
+   display: block;
+   position: absolute;
+   width: 54px;
+   height: 60px;
+   background: url(mano.png) no-repeat 0 0;
+   background: 100%;
+   bottom: 0;
+   left: 60%;
 
-/*<div class="more-info" id="more-info">
-<h2> Join this New Era...</h2>
-<p> Every week we have a meeting. If you want to join us then join our special project. <strong>You will not regret it.</strong>
-Members will also receive individual advises, in all kinds of subjects and thematics. Cool huh? </p>
-<button class="cta"> Sign me up!</button>    
-</div> */
+}
+
+
+
+.story h3{
+	font-size: 30px;
+	font-weight: bold;
+
+
+}
+.gang-img{
+	display: block;
+	margin: 0 auto;
+}
+
+footer{
+	text-align: center;
+	color: rgba(0,0,0,0.4);
+	font-size: 20px;
+	margin: 0px 0 40px 0;
+}
+
+footer a{
+	color: rgba(0,0,0,0.6);
+	text-decoration: none;
+}
+
+
+/*<div class="sep"></div>
+<div class="story" id="story">
+	<ul>
+		<li class="blue">Freshness</li>
+		<li class="grey">&nbsp;</li>
+		<li class="darkblue dragging">Accuracy</li>
+		<li class="green">Fluffly pancakes</li>
+		<li class="blue">Cute kitties</li>
+		<li class="grey">Green galaxy eyes</li>
+		<li class="green">Beimng flawless</li>
+	</ul>
+
+	<h3> Left: things we find important <br>
+		Bewlow: our story
+		<p>Once upon a time there was a girl who wanted to start learning web design. She was creative and ambitious person. <br>
+		So that, she decided to start learging web development by herself, that will be a tough path, but nothing will stop her. </p>
+		<p> Furthemore, she loves cats and fluffly pancakes with blue berries, ¿Why not?, cuteness and flawlessness are always great. Blue berry
+		proyect is about all that, her and the things she like the most. </p>
+		<p> Neverthess, sometimes life is not easy, laziness and frustation are factors that can prevent achieve your goal. Blue berries sometimes
+		has to ripen to be okay, sometimes fruits are not tasty enought, and you, just have to wait. That's it. </p>
+		<p> So finally! She is ready to start ripening like a blue berry! Let's mature right now!  pururur <p></p>
+		<p> So finally! She is ready to start ripening like a blue berry! Let's mature right now!  pururur <p></p>
+
+</div>
+ */

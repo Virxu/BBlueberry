@@ -228,15 +228,11 @@ nav ul li a{
 footer{
 	box-sizing: border-box;
 	background-color: #8cb122;
-	position: relative;
 	text-align: center;
 	color: rgba(0,0,0,0.7);
 	font-size: 20px;
-	padding: 5px;
-	margin-top: 30px;
-
-	
-
+	text-align: center;
+	margin: 30px 2px -50px 2px;
 }
 
 footer a{

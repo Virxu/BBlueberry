@@ -28,7 +28,7 @@
 <nav> 
 	<a href="#" class="logo">The product</a>
 	<ul>
-		<li><a href="#">Sing Up</a></li>
+		<li><a href="javascript:()" onclick="showPopup();">Sing Up</a></li>
 		<li><a href="#story">The Story</a></li>
 		<li><a href="#more-info">More info</a></li>
 		
@@ -41,7 +41,7 @@
 <h2> Join this New Era</h2>
 <p> Every week we have a meeting. If you want to join us then join our special project. <br> <strong>You will not regret it.</strong>
 Members will also receive individual advises, in all kinds of subjects and thematics. Cool huh? </p>
-<button class="cta"> Sign me up!</button>    
+<button class="cta" onclick="showPopup();"> Sign me up!</button>    
 </div> </div>
 
 <div class="sep"></div>
@@ -77,43 +77,60 @@ Members will also receive individual advises, in all kinds of subjects and thema
 
 
 
-</body>
+
 
 <div class="wrapper">
 <footer>
 Made by Virginia Vila&copy; from <a href="https://www.skillshare.com/classes/The-Basics-of-Web-Design-Layout-Learn-How-To-Describe-Your-Design-With-HTML-CSS/1282829766/projects?teacherRef=6102916&via=teacher-referral&utm_campaign=teacher-referral&utm_source=ShortUrl&utm_medium=teacher-referral">Skillshare</a>
 	
 <div class="sep"></div>
-
-
-	<div class="popup">
-		<div class="blanket"></div>
-		<div class="content">
-			<h2> Fill in your details </h2>
-			<form action="">
-			<div class="item">
-			<label>Your first name</label>
-			<input type="text" placeholder="tu nombrecito" value="Virginia">
-			</div>
-			<div class="item">
-			<label>Your last name</label>
-			<input type="text" placeholder="Vila">
-			</div>
-			<div class="item">
-			<label>Favourite Color</label>
-			<input type="text" placeholder="Blueberry">
-			</div>
-			<div class="item">
-			<label>Favourite Food</label>
-			<input type="text" placeholder="Pancakes">
-			</div>
-			<button class="cta">I want in!</button>
-			</form>
-		</div>
-		<button class="close">Close</button>
-	</div>
-<br>
-<h4> </h4> 
 </div>
 </footer>
+
+
+
+<div class="popup" id="popup">
+	<div class="blanket"></div>
+	<div class="content">
+		<h2> Fill in your details </h2>
+		<form action="">
+
+			<div class="row">
+			<div class="item">
+			    <label for=""> Your first name</label>
+			    <input type="text" placeholder="Virginia" value="Virginia">
+			</div>
+
+			<div class="item">
+			    <label for=""> Your first name</label>
+			    <input type="text" placeholder="Vila">
+			</div>
+			</div>
+
+			<div class="row">
+			<div class="item">
+			    <label for=""> Your favourite color</label>
+			    <input type="text" placeholder="Blue">
+			</div>
+
+			<div class="item">
+			    <label for=""> Your favourite meal</label>
+			    <input type="text" placeholder="Pancakes">
+			</div>
+			</div>
+
+             <button class="cta"> I want in! </button>
+		</form>
+		<button class="close" onclick="hidePopup();"> Close </button>
+	</div>
+	
+
+</div>
+
+<script src="script.js" type="text/javascript"></script>
+
+
+
+
+</body>
 </html>

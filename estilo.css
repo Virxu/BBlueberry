@@ -11,6 +11,11 @@ h1{ font-weight: 800;
 	
 }
 
+h2{
+	font-weight: 800;
+	font-size: 30px;
+}
+
 
 h3{ font-weight: bold;
     font-size: 15px; }
@@ -20,6 +25,11 @@ h4{
 	color: white;
 }
 
+p{
+ font-weight: bold;
+ font-size: 20px;
+ margin: 30px 0px;
+}
 
 .hero-banner h1{
 	color: white;
@@ -86,14 +96,69 @@ border: 10px solid rgba(0,0,0,0.15);
 }
 
 
-/* <div class="hero-banner">
-	<div class="wrapper">
-		<h4>Virginia Vila from <a href="https://www.skillshare.com/classes/The-Basics-of-Web-Design-Layout-Learn-How-To-Describe-Your-Design-With-HTML-CSS/1282829766/projects?teacherRef=6102916&via=teacher-referral&utm_campaign=teacher-referral&utm_source=ShortUrl&utm_medium=teacher-referral">Skillshare</a> presents </h4>
-		<h1> The most awesome <br> Blue Berry proyect </h1>
-		<h3> This is freshness, this is unique and this is magnific. <br>
-		     It is the best combination of fresh ideas. </h3>
-		     <a class="cta alt" href="#more-info"> Presh me!</a>    
-		     <div class="character1">
-	<img src="bolita.png" width="240px"></div>
 
-		     */
+nav {
+	height: 100px;
+	background-color: white;
+	box-shadow: 0px 5px 8px  rgba(0,0,0,0.2);
+	position: sticky;
+	top: 0;
+}
+
+
+nav .logo{
+	display: block;
+	width: 300px;
+	height: 90px;
+	position: absolute; top:50%; left: 30px;
+	margin-top: -50px;
+	margin-left: 120px;
+	background: url(logoo.png) no-repeat 0 0;
+	background-size: 100%;
+	overflow: hidden;
+	text-indent: -999%;
+
+}
+
+
+
+nav ul {
+	padding: 0;
+	margin: 0px 20px 0px ;
+
+}
+
+nav ul li{
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: right;
+	}
+
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #111111;
+	text-decoration: none;
+	padding: 35px 10px;
+	line-height: 30px;
+}	
+
+.more-info{
+ text-align: center;
+}
+
+
+
+
+
+/*<div class="more-info" id="more-info">
+<h2> Join this New Era...</h2>
+<p> Every week we have a meeting. If you want to join us then join our special project. <strong>You will not regret it.</strong>
+Members will also receive individual advises, in all kinds of subjects and thematics. Cool huh? </p>
+<button class="cta"> Sign me up!</button>    
+</div> */
